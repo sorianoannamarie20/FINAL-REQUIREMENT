@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24" />
+
+    <item
+        android:id="@+id/Video"
+        android:title="Videos"
+        android:icon="@drawable/ic_baseline_video_library_24" />
+
+    <item
+        android:id="@+id/Add"
+        android:title="Add Recipe"
+        android:icon="@drawable/ic_baseline_add_to_photos_24"/>
+
+    <item
+        android:id="@+id/Account"
+        android:title="Account"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+</menu>

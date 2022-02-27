@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_brulee"
+    tools:context=".AddRecipe">
+
+    <TextView
+        android:id="@+id/uploadedRecipe"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:gravity="center"
+        android:text="UPLOADED RECIPE"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="500dp"
+        android:layout_height="3dp"
+        android:layout_below="@+id/uploadedRecipe"
+        android:layout_marginTop="12dp"
+        android:background="@color/black" />
+
+
+
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shapewhite"
+        android:textColorHint="@color/gray"
+        android:layout_below="@id/divider2"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:hint="\tSearch Recipe Name"
+        android:shadowRadius="20"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_baseline_search_24" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="55dp"
+        android:id="@+id/recyclerView"
+        android:layout_below="@+id/editSearch"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/cream_brulee"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="72dp"
+        android:onClick="uploadClick"
+        android:src="@drawable/ic_baseline_add_circle_24" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/cream_brulee"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/navigation"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+
+</RelativeLayout>

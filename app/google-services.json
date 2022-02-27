@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "152011413631",
+    "project_id": "finalnathis-1a3a8",
+    "storage_bucket": "finalnathis-1a3a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152011413631:android:9c1b9b72051848ae96c74a",
+        "android_client_info": {
+          "package_name": "com.example.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152011413631-011t4fdhjm4m389gq0gdigjgv135ih60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiVyqyqeCNtI4qkGlUF9L_tqbL8OeV3jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152011413631-011t4fdhjm4m389gq0gdigjgv135ih60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

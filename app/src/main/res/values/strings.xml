@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bake IT</string>
+    <string name="api_key">9f7d73be96b448f8b98fae36e06c8b03</string>
+
+    <string-array name="tags">
+        <item>dessert</item>
+        <item>appetizer</item>
+        <item>bread</item>
+        <item>snack</item>
+        <item>drink</item>
+
+
+    </string-array>
+</resources>
